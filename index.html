@@ -11,7 +11,12 @@
       <div class="container">
          <div class="heart-loader"></div>
          <span>ATDNAN NUR ALAM NASYIRAH</span>
-         <span contenteditable="true">HAMBAH ALLAH</span>
+         <span id="nama"></span>
       </div>
    </body>
+   <script>
+      let nama = prompt("Masukkan Nama Anda");
+      const newname = document.getElementById("nama");
+      newname.innerText = nama;
+   </script>
 </html>
