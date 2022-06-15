@@ -10,13 +10,16 @@
    <body>
       <div class="container">
          <div class="heart-loader"></div>
-         <span>ATDNAN NUR ALAM NASYIRAH</span>
-         <span id="nama"></span>
+         <span id="namaAnda"></span>
+         <span id="namaPasangan"></span>
       </div>
    </body>
    <script>
-      let nama = prompt("Masukkan Nama Anda");
-      const newname = document.getElementById("nama");
-      newname.innerText = nama;
+      let namaAnda = prompt("Masukkan Nama Anda");
+      let namaPasangan = prompt("Masukkan Nama Pasangan Anda");
+      const anda = document.getElementById("namaAnda");
+      const pasangan = document.getElementById("namaPasangan");
+      anda.innerText = namaAnda;
+      pasangan.innerText = namaPasangan;
    </script>
 </html>
